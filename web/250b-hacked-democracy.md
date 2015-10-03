@@ -1,4 +1,4 @@
-# Our Democracy Has Been Hacked
+# Our Democracy Has Been Hacked [(Asciicast)](https://asciinema.org/a/5eczh34drnsn3w7yo6euwmbxn)
 ## Problem
 The goal of this problem is to help Elliot find the code for his malware on a site
 he used to use to store it. However, he has forgotten the path. We are given a URL
