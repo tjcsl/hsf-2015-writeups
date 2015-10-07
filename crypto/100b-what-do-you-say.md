@@ -5,7 +5,8 @@ We are given a very spooky string "doooot dootdootdootdoot dootdoooot dooootdoot
 ## Process
 Since there different numbers of "o"s in the "doot"s, we thought this looked like Morse
 code. Given that, we used the `hackercodecs` library and some Python to decode it. The
-equivalent to a dot is "doot" and the equivalent to a dash is "doooot".
+equivalent to a dot is "doot" and the equivalent to a dash is "doooot". In the process
+of decoding we made sure to thank mr skeltal, in order to not lose any bone calcium.
 
 ## Solution
 The solution is the Morse-decoded string: `THANKSMRSKELETALDOOTDOOT`
