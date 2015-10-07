@@ -19,6 +19,7 @@ use the links below.
 - [300A: Do Not Support](network/300a-do-not-support.md)
 
 ### Photo-rensics
+- [100A: Secret Meeting](photo/100a-secret-meeting.md)
 - [150A: Movie Night](photo/150a-movie-night.md)
 
 ### Recon
