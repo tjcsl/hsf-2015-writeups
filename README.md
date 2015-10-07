@@ -15,6 +15,7 @@ use the links below.
 - [100B: Match the Hash](filez/100b-match-hash.md)
 
 ### Network
+- [150A: Burritos](network/150a-burritos.md)
 - [300A: Do Not Support](network/300a-do-not-support.md)
 
 ### Photo-rensics
