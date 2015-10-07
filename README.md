@@ -33,5 +33,6 @@ use the links below.
 ### Web
 - [100A: What's Good](web/100a-whats-good.md)
 - [150B: Styx](web/150b-styx.md)
+- [250A: Instapwn](web/250a-instapwn.md)
 - [250B: Our Democracy Has Been Hacked](web/250b-hacked-democracy.md)
 - [501A: You Can Account On Me](web/501a-account-on-me.md)
