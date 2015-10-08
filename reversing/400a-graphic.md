@@ -232,7 +232,17 @@ Value: 0x42424242
 The next step was to find a path (starting at `0xdeadbeef`) which, when each step was XOR'd with the game value (which starts as `0xdeadbeef` because it is the first node) produced the target value `0x764c648c`. It is important to mention that any step can essentially be negated by visiting a node and then visiting itself again (because any move other than L or R visits the current node again). This is because `X xor X == 0` by the properties of XOR.
 
 ### Finding the path
-(fill in finding the set)
+In order to find the path, we used a meet-in-the-middle attack. Although it would be feasible to brute-force the 2^22 combinations of item values, we decided to use meet-in-the-middle to speed up the process.
+The process for applying meet-in-the-middle to this problem works like this:
+- split the item values into two equal-sized groups
+- find all possible combinations of values, and XOR them, for the first group
+- find all possible combinations of values, and XOR them, for the second group
+- find the intersection of the values sets (let's call it `intermediate`)
+- find the set of values which produced `intermediate` in the first group (let's call it `first`)
+- find the set of values which produced `intermediate` in the second group (let's call it `second`)
+- the intersection of `first` and `second` are the values we need to XOR in order to find the game path
+
+Our implementation of this process was [a Python script](400a-graphic/mitm.py).
 
 Once we now had a set of values which when XOR'd together produced the target value (`['0x8badf00d', '0xdeadc0de', '0xdeadfeed', '0xfee1dead', '0xfaceb00b', '0x743029ab', '0x11111112', '0x42424242']`), the next step was to translate that to a valid path in the program, remembering that any step in the path could be negated by visiting it twice. We used good old pencil and the graph previously mentioned to trace out a reasonably efficient path:
 
