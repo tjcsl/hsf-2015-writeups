@@ -32,7 +32,7 @@ use the links below.
 ### Steganography
 - [100A: Andromeda](stego/100a-andromeda.md)
 - [100B: Face It](stego/100b-faceit.md)
-- [300A: Cheaptrix](stego/300a-cheaptrix,md)
+- [300A: Cheaptrix](stego/300a-cheaptrix.md)
 - [500A: What's The Difference](stego/500a-whats-the-difference.md)
 
 ### Web
