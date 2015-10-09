@@ -27,6 +27,7 @@ use the links below.
 ### Recon
 
 ### Reversing
+- [500A: Malrio Ware](reversing/500a-malrio-ware.md)
 
 ### Steganography
 - [100A: Andromeda](stego/100a-andromeda.md)
