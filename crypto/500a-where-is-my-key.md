@@ -1,6 +1,6 @@
 # Where is My Key
 ## Problem
-We are given a zip file containing the code for a [encryptor program](500a-where-is-my-key/encryptor.c), [a message](500a-where-is-my-key/message_1), [the encrypted version of that message](500a-where-is-my-key/message_1.enc), and [a different encrypted message](500a-where-is-my-key/message)2.enc.
+We are given a zip file containing the code for a [encryptor program](500a-where-is-my-key/encryptor.c), [a message](500a-where-is-my-key/message_1), [the encrypted version of that message](500a-where-is-my-key/message_1.enc), and [a different encrypted message](500a-where-is-my-key/message_2.enc).
 
 ## Process
 We first take a look at the source [here](500a-where-is-my-key/encryptor.c).
