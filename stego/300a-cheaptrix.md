@@ -5,7 +5,11 @@ cheap tricks.
 
 ## Process
 We opened the file in Audacity and noticed that the Gandalf audio was only on the
-right channel. Muting the right channel and playing only the left channel gave us
+right channel:
+
+![Audacity screenshot](300a-cheaptrix/audacity.png)
+
+Muting the right channel and playing only the left channel gave us
 a spoken flag. (Note well: because of the equals signs at the end of the audio, we
 initially thought this was a Base64 encoded message. It was not.)
 
