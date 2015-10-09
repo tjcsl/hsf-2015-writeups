@@ -3,7 +3,7 @@
 We are given a zip file containing a [PE executable](500a-malrio-ware/lola.exe) and a [PDB file](500a-malrio-ware/lola.pdb).
 
 ## Process
-The first step in our process was to run the executable we were given (in a VM, of course; always practice safe CTFing). When run, the executable deletes itself, backgrounds its process, and then launches a photo of a [very cute puppy](500a-malrio-ware/puppy.png) approximately every 10 seconds. No other effects were immediately visible.
+The first step in our process was to run the executable we were given (in a VM, of course; always practice safe CTFing). When run, the executable deletes itself, backgrounds its process, and then launches a photo of a [very cute puppy](500a-malrio-ware/puppy.png) approximately every 10 seconds. No other effects were immediately visible. The program also adds itself as a startup task so it will be preserved across reboots.
 
 Opening up the binary in IDA and looking at the main function, we quickly noticed a suspicious offset "FLAG" and a function "decrypt": 
 
