@@ -27,6 +27,7 @@ use the links below.
 ### Recon
 
 ### Reversing
+- [400A: Graphic](reversing/400a-graphic.md)
 - [500A: Malrio Ware](reversing/500a-malrio-ware.md)
 
 ### Steganography
