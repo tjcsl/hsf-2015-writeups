@@ -6,6 +6,7 @@ use the links below.
 ### Cryptography
 - [100A: Julius](crypto/100a-julius.md)
 - [100B: What do you say?](crypto/100b-what-do-you-say.md)
+- [200A: Back to Base6](crypto/200a-back-to-base6.md)
 - [500A: Where is My Key](crypto/500a-where-is-my-key.md)
 
 ### Disk Forensics
