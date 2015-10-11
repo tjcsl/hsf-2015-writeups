@@ -1,0 +1,44 @@
+history
+veracrypt --help
+veracrypt -t -k "" --protexr-hidden=no  catz /home/cats/catz
+veracrypt -t -k "" --protect-hidden=no  catz /home/cats/catz
+veracrypt catz /media/veracrypt
+gedit /.bash_history
+ls
+clera
+clear
+history
+clear
+veracrypt dismount
+veracrypt dismount catz
+veracrypt -help
+veracrypt -d catz
+clear
+veracrypt -t -k "" --protect-hidden=no  catz /home/cats/catz
+veracrypt catz /media/veracrypt
+veracrypt -d catz
+clear
+sudo gedit ~/.bash_history
+cd var
+clear
+cd ..
+cd var
+clear
+ls
+cd ..
+ls
+cd vara
+cd var
+ls
+cd log
+ls
+gedit logkeys.log
+cat logkeys.log 
+sudo cat logkeys.log 
+nano logkeys.log 
+sudo nano logkeys.log 
+cat logkeys.log 
+sudo cat logkeys.log 
+clear
+sudo gedit ~/.bash_history
+
